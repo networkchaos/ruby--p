@@ -1,0 +1,51 @@
+\\  #=> Need a backslash in your string?
+\b  #=> Backspace
+\r  #=> Carriage return, for those of you that love typewriters
+\n  #=> Newline. You'll likely use this one the most.
+\s  #=> Space
+\t  #=> Tab
+\"  #=> Double quotation mark
+\'  #=> Single quotation mark
+
+
+ Ruby docs.com
+
+ examples of string methods  in Ruby
+                    || output
+ "hello".capitalize #=> "Hello"
+ //makes capital only the fisrt letter or character 
+//while the upcase method affects th whole string or word 
+
+
+"hello".include?("lo")  #=> true
+"george".include?("to")  #=> false
+
+.empty? method looks if the is a string or not 
+for example 
+"".empty?  #=> true
+.length method measure the number of characters in a string 
+.downcase method allows the string to be in lower case this affects all of the word or the string
+
+.reverse method reverses a string or word 
+.strip 
+.split splits a string in characters or integers or even words
+
+in ruby we add the ? mark after the method to query the argument if its a boleen or not in short true or false questions must have the ? mark
+
+.delete method tend to erase the specified char of integers
+.prepend more like the concat method i think soo
+
+
+Converting other objects to strings
+to_s  converts pretty much anything to a string.
+
+example
+5.to_s        #=> "5"
+
+nil.to_s      #=> ""
+
+:symbol.to_s  #=> "symbol"
+
+
+
+
